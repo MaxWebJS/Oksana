@@ -5,19 +5,28 @@ body {
   place-items: center;
 }
 h1 {
-  margin-top: 3rem;
+  margin-top: 5rem;
   color: antiquewhite;
+}
+h3 {
+  text-transform: uppercase;
+}
+.logo {
+  background: url(./img/logo_2.png);
+  background-repeat: no-repeat;
+  width: 257px;
+  height: 71px;
 }
 .navbar {
   background: hsl(26 75% 58%);
 }
 .first__letter::first-letter {
-  background-image: url(./img/logo_pizza.png);
+  /* background-image: url(./img/logo_pizza.png);
   background-size: contain;
   color: transparent;
   background-repeat: no-repeat;
   background-position: center 64%;
-  font-size: 2rem;
+  font-size: 2rem; */
 }
 
 .slider {
