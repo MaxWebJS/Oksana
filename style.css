@@ -1,0 +1,62 @@
+body {
+  background-image: radial-gradient(circle, hsl(221 95% 57%), hsl(221 95% 10%));
+  display: grid;
+  /* place-content: center; */
+  place-items: center;
+}
+h1 {
+  margin-top: 3rem;
+  color: antiquewhite;
+}
+.navbar {
+  background: hsl(26 75% 58%);
+}
+.first__letter::first-letter {
+  background-image: url(./img/logo_pizza.png);
+  background-size: contain;
+  color: transparent;
+  background-repeat: no-repeat;
+  background-position: center 64%;
+  font-size: 2rem;
+}
+
+.slider {
+  /* box-shadow: 0px 0px 22px 3px hsl(221 95% 10%); */
+  box-shadow: 10px 10px 30px 0px hsl(221 95% 10%);
+}
+.carousel-inner {
+  background-image: linear-gradient(
+    to right bottom,
+    hsl(221 95% 10%),
+    hsl(221 95% 10%)
+  );
+}
+
+.carousel-inner .carousel-item:nth-child(1) .d-block {
+  background: url(./img/products/1.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  aspect-ratio: 768/941;
+}
+.carousel-inner .carousel-item:nth-child(2) .d-block {
+  background: url(./img/products/2.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  aspect-ratio: 768/941;
+}
+.carousel-inner .carousel-item:nth-child(3) .d-block {
+  background: url(./img/products/3.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  aspect-ratio: 768/941;
+}
+.carousel-inner .carousel-item:nth-child(4) .d-block {
+  background: url(./img/products/4.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  aspect-ratio: 768/941;
+}
