@@ -14,14 +14,41 @@ h1 {
 h3 {
   text-transform: uppercase;
 }
+a {
+  color: inherit !important;
+  text-decoration: none;
+  cursor: pointer;
+}
+a:hover {
+  transition: 0.3s;
+  text-decoration: underline;
+  font-size: 100% !important;
+}
+a:visited {
+  color: inherit !important;
+}
+a:focus {
+  outline: none;
+}
 .logo {
   background: url(./img/logo_2.png);
   background-repeat: no-repeat;
   width: 257px;
   height: 71px;
+  cursor: auto;
 }
 .navbar {
   background: hsl(26 75% 58%);
+  background: linear-gradient(
+    hsl(26 75% 58%),
+    hsl(26 75% 58%) 10%,
+    hsl(26 75% 68%) 12%,
+    hsl(26 75% 48%) 14%,
+    /* hsl(26 75% 38%/0.5), */ hsl(26 75% 48%) 86%,
+    hsl(26 75% 68%) 88%,
+    hsl(26 75% 58%) 90%,
+    hsl(26 75% 58%)
+  );
 }
 .first__letter::first-letter {
   /* background-image: url(./img/logo_pizza.png);
