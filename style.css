@@ -1,15 +1,26 @@
 body {
   background-image: radial-gradient(circle, hsl(221 95% 57%), hsl(221 95% 10%));
+  background-image: radial-gradient(
+    circle,
+    hsl(221 100% 60%),
+    hsl(221 100% 5%)
+  );
+  background: #fffff0;
   /* display: grid; */
   /* place-content: center; */
   /* place-items: center; */
+  max-width: 1024px;
+  margin: auto;
+}
+.navbar {
+  max-width: inherit;
 }
 .header {
   margin-top: 7rem;
   margin-bottom: 2rem;
 }
 h1 {
-  color: antiquewhite;
+  color: #1bc21b;
 }
 h3 {
   text-transform: uppercase;
@@ -49,6 +60,15 @@ a:focus {
     hsl(26 75% 58%) 90%,
     hsl(26 75% 58%)
   );
+  background: #f22222;
+  color: white;
+}
+.navbar-toggler {
+  outline: none;
+}
+.navbar-toggler:focus {
+  outline: none;
+  box-shadow: none;
 }
 .first__letter::first-letter {
   /* background-image: url(./img/logo_pizza.png);
