@@ -8,8 +8,8 @@ body {
   min-height: 100vh;
   background: radial-gradient(
     at 50% 15%,
-    hsl(240 50% 40% / 1),
-    hsl(240 50% 5% / 1) 75%
+    hsl(240 50% 35% / 1),
+    hsl(240 50% 5% / 1) 50%
   );
 }
 main {
@@ -24,6 +24,7 @@ video {
 }
 h1 {
   position: absolute;
+  left: -5%;
 
   background: radial-gradient(hsl(0 0% 50% / 1), hsl(0 0% 0% / 1) 80%);
   background: radial-gradient(hsl(0 0% 40% / 1), hsl(0 0% 0% / 1) 60%);
@@ -39,7 +40,7 @@ h1 {
 
   text-transform: uppercase;
   font-weight: 900;
-  width: 100%;
+  width: 110%;
   /* margin: auto; */
   /* line-height: 0.95em; */
   aspect-ratio: 1400/787.5;
