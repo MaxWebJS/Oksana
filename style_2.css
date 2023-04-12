@@ -1,0 +1,41 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+main {
+  max-width: 1400px;
+  margin: auto;
+  width: 80vw;
+  position: relative;
+}
+video {
+  width: 100%;
+  position: absolute;
+}
+h1 {
+  position: absolute;
+
+  background: radial-gradient(hsl(0 0% 50% / 1), hsl(0 0% 0% / 1) 80%);
+  background: radial-gradient(hsl(0 0% 40% / 1), hsl(0 0% 0% / 1) 60%);
+  color: white;
+  /* mix-blend-mode: soft-light; */
+  mix-blend-mode: multiply;
+
+  font-size: 5rem;
+  font-size: calc(16px + 0.5vw);
+  font-size: max(16px, calc(1em + 0.5vw));
+  font-size: min(24px, calc(1em + 0.5vw));
+  font-size: clamp(2vw, 4vw, 6vw);
+
+  text-transform: uppercase;
+  font-weight: 900;
+  width: 100%;
+  /* margin: auto; */
+  /* line-height: 0.95em; */
+  aspect-ratio: 1400/787.5;
+  /* padding: 20%; */
+  text-align: center;
+  padding-top: 12vw;
+}
